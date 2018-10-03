@@ -27,7 +27,7 @@ table {
   
   border: rebeccapurple;
   padding-bottom: 20px;
-  align-items: center;
+  height:40px; width:100%;
 }
 img {
   max-width:100% ;margin: 0 auto; display: block;
@@ -58,7 +58,10 @@ img {
 }
 .lienlac{
   grid-area: lienlac;
+
+
 }
+tr > td {height:40px; width:100%;}
 
 p{
   text-align: initial;
